@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<style>
+    h1{
+        background-color: red;
+        font-style: italic;
+        }
+
+    body{
+        background-color: magenta;
+    }
+</style>
+
+<body>
+    <h1>Years to days calulator</h1>
+
+    <input id = "myage" type = "number">
+
+    <p>This is an amazing years to days calculator</p>
+
+    <button onclick="alert(text);">Calculate!</button>
+
+    <script>
+
+        var myage = document.getElementById("myage").value;
+
+        var myage_days = myage * 365;
+
+        var text = "you are "+myage_days+" days old"
+
+        //
+        console.log(myage)
+
+
+    </script>
+
+</body>
+
+
+
+</html>
